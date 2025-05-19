@@ -5,7 +5,7 @@ Middleware para monitorar Requisições Por Segundo (RPS) e rotas em aplicaçõe
 ## Instalação
 
 ```bash
-npm install git+https://github.com/jevilson/express-rps-monitor.git
+npm install git+https://github.com/Jevilson/express-rps-monitor.git
 ```
 
 ## Uso Básico
