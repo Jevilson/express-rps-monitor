@@ -1,0 +1,9 @@
+# Não publique dependências
+node_modules/
+
+# Não publique arquivos de dados
+stats.json
+
+# Também pode ignorar arquivos que não são necessários no pacote
+.gitignore
+README.md

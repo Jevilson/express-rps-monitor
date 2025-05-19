@@ -1,0 +1,5 @@
+# Ignorar dependências
+node_modules/
+
+# Ignorar arquivo de métricas
+stats.json
