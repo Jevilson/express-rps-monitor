@@ -12,12 +12,12 @@ npm install git+https://github.com/Jevilson/express-rps-monitor.git
 
 ```javascript
 const express = require('express');
-const { rpsMonitor, renderRelatorioHTML } = require('express-rps-monitor');
+const { monitorMiddleware, renderRelatorioHTML } = require('express-rps-monitor');
 
 const app = express();
 
 // Adiciona o middleware de monitoramento
-app.use(rpsMonitor());
+app.use(monitorMiddleware);
 
 // Suas rotas aqui...
 app.get('/', (req, res) => {
